@@ -12,10 +12,10 @@ Using your knowledge of the imbalanced-learn and scikit-learn libraries, you’l
 
 ![image](https://user-images.githubusercontent.com/93686963/158003694-439c7f38-9b4b-4392-b256-401abf642293.png)
 
-The balanced accuracy score for this model is around 64.4%, meaning that the model predicted the credit risk accurately 64.4% of the time. This is a fairly positive score, but not excellent.
-The precision scores for this model are very skewed toward the low-risk loans as all of the low-risk loans were correctly predicted, but nearly none of the high-risk loans were accurately predicted. This model is not great for identifying high-risk loan.
+The balanced accuracy score for this model is around 64.4%, meaning that the model predicted the credit risk accurately 64.4% of the time. This is a fairly positive score, but not great.
+The precision scores for this model are very skewed toward the low-risk loans as all of the low-risk loans were correctly predicted, but nearly none of the high-risk loans were accurately predicted. This model does not work that much for identifying high-risk loan.
 
-The recall scores for this model show that the model is better at identifying positive low-risk loans (0.68) and decent at positively identifying high-risk loans (0.61), but the recall scores are not great for either.
+The recall scores for this model show that the model is better at identifying positive low-risk loans (0.68) and decent at positively identifying high-risk loans (0.61), but the recall scores are not good for either.
 
 
 
@@ -27,7 +27,7 @@ Using the SMOTEENN algorithm, you’ll resample the dataset, view the count of t
 
 ![image](https://user-images.githubusercontent.com/93686963/158003721-17c7759d-c28e-4998-a2fe-51283635247c.png)
 
-The balanced accuracy score for this model is around 63.7%, meaning that the model predicted the credit risk accurately 63.7% of the time. This is a fairly positive score, but not excellent.
+The balanced accuracy score for this model is around 63.7%, meaning that the model predicted the credit risk accurately 63.7% of the time. This is a fairly positive score, but not great.
 The precision scores for this model are very skewed toward the low-risk loans as all of the low-risk loans were correctly predicted, but nearly none of the high-risk loans were accurately predicted. This model is not great for identifying high-risk loan.
 
 The recall scores for this model show that the model is better at identifying positive low-risk loans (0.63) and decent at positively identifying high-risk loans (0.64). 
@@ -39,8 +39,8 @@ The recall scores for this model show that the model is better at identifying po
 
 ![image](https://user-images.githubusercontent.com/93686963/158003806-11c43253-169d-4a53-b160-9d4bd825f1f3.png)
 
-The balanced accuracy score for this model is around 63.7%, meaning that the model predicted the credit risk accurately 63.7% of the time. This is a fairly positive score, but not excellent.
-The precision scores for this model are very skewed toward the low-risk loans as all of the low-risk loans were correctly predicted, but nearly none of the high-risk loans were accurately predicted. This model is not great for identifying high-risk loan.
+The balanced accuracy score for this model is around 63.7%, meaning that the model predicted the credit risk accurately 63.7% of the time. This is a fairly positive score, but not a  great score.
+The precision scores for this model are very skewed toward the low-risk loans as all of the low-risk loans were correctly predicted, but nearly none of the high-risk loans were accurately predicted. This model is not good for identifying high-risk loan.
 
 The recall scores for this model show that the model is better at identifying positive low-risk loans (0.44) and decent at positively identifying high-risk loans (0.59), but the recall scores are not great for either.
 
